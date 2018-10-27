@@ -1,19 +1,18 @@
 from tkinter import *
-from time import *
 Y=Tk()
-Y.geometry('500x500+650-100') #law bl CM ('1cmx2cm')
+Y.geometry('500x500+650-100') 
 Y.title("3atf")
 Y.minsize(500,500)
 Y.maxsize(500,500)
 X=Tk()
-X.title("3atf-Junior")
+X.title("first window")
 X.geometry('500x500+150-100')
 Y.resizable(False,False)
 X.lift()
-#X.lower() by3ml hide l 3tf junior :( 
-X.state("normal") #iconi(zy lower bs until l give him the right code) withdraw (to KILL the window (3atf junior :( ) :O) , X.iconify() zy X.state("iconic"))
+#X.lower() 
+X.state("normal") #X.iconify() zy X.state("iconic"))
 if X.state()=="normal":
-    X.state("withdraw") # what ever here normal if mn el 25r , X.destroy() zy withdraw
+    X.state("withdraw") # X.destroy() zy withdraw
 X.state("normal") #X.deiconify() zy normal 
 Y.configure(bg='dodgerblue')
 X.configure(bg='dodgerblue')
